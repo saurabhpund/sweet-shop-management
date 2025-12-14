@@ -9,7 +9,7 @@ const {
   deleteSweet,
   purchaseSweet,
   restockSweet
-} = require("../controllers/sweet.controller");
+} = require("../controller/sweet.controller");
 
 const auth = require("../middleware/auth.middleware");
 const isAdmin = require("../middleware/role.middleware");
