@@ -74,7 +74,6 @@ it("should fail if password is incorrect", async () => {
 });
 
 // ! Password Not Returned
-
 it("should not return password in response", async () => {
   const hashedPassword = await bcrypt.hash("password123", 10);
 
